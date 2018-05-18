@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/songs_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#2950c5"
+            android:padding="15dp"
+            android:text="Songs"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/playlists_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#2950c5"
+            android:padding="15dp"
+            android:text="Playlist"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/artists_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#2950c5"
+            android:padding="15dp"
+            android:text="Artist"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/shop_button"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#2950c5"
+            android:padding="15dp"
+            android:text="Shop"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#5cacee"
+        android:text="@string/textView1"
+        android:textSize="20sp" />
+</LinearLayout>

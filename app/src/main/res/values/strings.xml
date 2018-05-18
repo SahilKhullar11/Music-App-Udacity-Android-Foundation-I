@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="textView1">This is the home page of the application where user can choose options shown above.</string>
+    <string name="textView2">This the the songs activity where the list of songs is displayed and when user plays a song, now playing activity opens and user can go to home using home button.</string>
+    <string name="textView3">Now Playing</string>
+    <string name="textView4">This is the now playing activity which open when a song is played and has various options like play next song, pause etc and user can go to home using home button.</string>
+    <string name="textView5">Here the cover of the song will be displayed.</string>
+    <string name="textView6">Most Played</string>
+    <string name="textView7">Recently Added</string>
+    <string name="textView8">This activity displays the playlists like most played songs, recently added songs and user can go to home using home button.</string>
+    <string name="textView9">This activity displays the name of the various artists and user can go to home using home button.</string>
+    <string name="textView10">Google Pay Api\nThe Google Pay API facilitates fast and easy online purchases for your users, and eliminates manual entry of payment and shipping information. Use the Google Pay API to offer one-touch checkout experiences for hundreds of millions of Google users. Use the Google Pay API to request any credit or debit card stored in your customer’s Google account. </string>
+    <string name="song1">Shape of You</string>
+    <string name="song2">Love Me Like You Do</string>
+    <string name="song3">End Game</string>
+    <string name="song4">I Need Your Love</string>
+    <string name="song5">As Long As You Love Me</string>
+</resources>
