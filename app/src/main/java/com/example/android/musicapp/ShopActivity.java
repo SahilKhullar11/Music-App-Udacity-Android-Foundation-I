@@ -17,6 +17,7 @@ public class ShopActivity extends AppCompatActivity {
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                System.out.println("Welcome"); 
                 Intent homeIntent = new Intent(ShopActivity.this, MainActivity.class);
                 startActivity(homeIntent);
             }
